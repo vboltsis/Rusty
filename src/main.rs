@@ -1,8 +1,12 @@
 fn main() {
-    let mut number = 5;
-    number = 3;
+    //let mut number = 5;
+    let number = 3;
     println!("{}", number);
     println!("Hello, world!");
+    let result = fibonacci(5);
+    println!("{}", result);
+    let sum = sum_to(5);
+    println!("{}", sum);
 }
 
 fn fibonacci(n: u32) -> u32 {
